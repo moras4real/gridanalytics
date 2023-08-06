@@ -1,0 +1,349 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.leader {
+    background-color: black;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: px;
+    width: 1500px
+     
+}
+
+.joob {
+    background-color: rgb(249, 252, 252);
+    border: 2px solid;
+    height: px;
+    
+}
+
+.joob:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 60px;        
+}
+
+.floone {
+    border: 2px solid none;     
+    display: flex;
+    gap: 5px;     
+    direction: row;
+    align-items: center;
+    background-color: rgb(250, 250, 250);    
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;   
+}
+
+button {    
+    background-color: rgb(41, 98, 255);
+    border: 1px solid rgb(41, 98, 255);
+    color: rgb(250, 250, 250);
+    width: 90px;
+    height: 33px;
+    font-family: sans-serif;    
+    border-radius: 2px; 
+    margin-left: 830px;      
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
+.joob:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 50px;        
+}
+
+.flotwo {
+    border: 2px solid none;
+    font-family: sans-serif;
+    font-size: 15.5px;
+    background-color: rgb(255, 119, 0);
+    color: rgb(255, 225, 231);
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#floTwo {
+    color: rgb(255, 225, 231);
+}
+
+
+
+.joob:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 320px;       
+}
+
+.flothree {
+    border: 2px solid none;
+    width: 680px;
+    height: 320px;
+    flex-wrap: wrap;
+    font-family: sans-serif;    
+    color: rgb(49, 49, 49);
+    background-color: rgb(250, 250, 250);     
+}
+
+.flofour {
+    border: 1px solid none;
+    display: flex; 
+    position: absolute;   
+}
+
+#floThree {
+    padding-left: 90px;
+    padding-top: 45px;
+}
+
+.flofive {
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 90px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.toptop {
+    border: 2px solid rgb(66, 133, 244);
+    background-color: rgb(66, 133, 244);
+    border-radius: 100px;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    margin-left: 650px;
+    margin-top: 240px;
+}
+
+#testt {
+    padding-top: 25px;
+    padding-left: 17px;
+}
+
+
+
+.joob:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 940px;           
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 28px;
+    color: white;
+    font-weight: 800px;
+    border: 2px solid rgb(66, 133, 244);
+    width: 1500px;
+    height: 55px;
+    background-color: rgb(66, 133, 244);
+    padding-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-top: 15px;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 20px;    
+    font-weight: 800px;
+    line-height: 30px;
+}
+
+.flosix {
+    border: 2px solid rgb(66, 133, 244);
+    width: 1500px;
+    height: 940px;
+    background-color: rgb(66, 133, 244);
+    padding-top: px;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 15px;
+    flex-flow: row wrap;   
+}
+
+.floseven {
+    border: 2px solid none;
+    width: 260px;
+    height: 430px;
+    background-color: white;
+    border-radius: 2px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px; 
+    overflow-y: hidden;   
+    position: relative;
+}
+
+#floFour {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 900px;
+}
+
+#floFive {
+    margin-left: 180px;
+}
+
+
+
+.joob:nth-child(5) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: px;    
+}
+
+#floSix {
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+#floEight {
+    font-family: sans-serif;
+    font-size: 15px; 
+    line-height: 23px;     
+    padding-top: 17px;
+    padding-left: 17px;
+    padding-right: 17px;
+    overflow: hidden;
+}
+
+.floeight {
+    border: 2px solid none;
+    width: 1300px;
+    height: 1100px;
+    background-color: rgb(250, 250, 250);
+    padding: 30px 30px 30px 80px;
+}
+
+.flonine {
+    border: 1px solid none;
+    box-shadow: 3 5 rgb(49, 49, 49);
+    width: 1062px;
+    height: 185px;
+    background-color: rgb(242, 242, 242);    
+    overflow: hidden;
+    margin-top: 31px;
+}
+img {
+    float: left;   
+}
+
+#floSeven {
+    border-bottom: 1px solid rgb(49, 49, 49);
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 50px;
+    padding-top: 17px;
+    padding-left: 17px;
+    overflow: hidden;
+}
+
+#twentyflo {
+    font-family: sans-serif;
+    font-size: 15px; 
+    line-height: 23px;
+    margin-right: 25px;
+}
+
+#flonin {
+border: 2px solid none;
+width: 255px;
+height: 140px;
+background-color: rgb(242, 242, 242);
+border-radius: 2px;
+font-family: sans-serif;
+font-size: 15px;    
+padding: 20px 20px 20px 20px;
+text-align: center;  
+}
+.fastgo {
+padding-left: 80px ;
+}
+
+.flast {
+border: 2px solid none;
+width: 1100px;
+height: 140px;   
+display: flex;  
+flex-flow: row wrap; 
+gap: 15px;     
+}
+
+#flotwe {
+border: 2px solid none;
+width: 1300px;
+height: 60px;
+background-color: rgb(250, 250, 250);
+display: flex;
+flex-flow: row wrap; 
+gap: 5px;
+padding-top: 15px;
+justify-content: right;
+}
+
+#flonON1 {    
+width:135px;    
+}
+
+#flonON2 {   
+width:120px;   
+}
+
+#flonON3 {    
+width:140px;    
+}
+
+#flonON4 {   
+width:200px;          
+}
+
+#flonON1, #flonON2, #flonON3, #flonON4{
+border: 2px solid none;
+height: 30px;    
+border-radius: 2px;
+font-family: sans-serif;
+font-size: 14px;    
+text-align: center;
+padding-top: 10px;     
+}
+
+#flonON1:hover {
+background-color: rgb(141, 137, 137);;
+}
+#flonON2:hover {
+background-color: rgb(141, 137, 137);;
+}
+#flonON3:hover {
+background-color: rgb(141, 137, 137);;
+}
+#flonON4:hover {
+background-color: rgb(141, 137, 137);;
+}
+
+select {
+border-color: azure;
+}
+
+#floOne {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+}
+
